@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class OutputAndVariables
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,30 +22,9 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnStart = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'btnStart
-        '
-        Me.btnStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnStart.Location = New System.Drawing.Point(164, 89)
-        Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(257, 140)
-        Me.btnStart.TabIndex = 0
-        Me.btnStart.Text = "Press Here"
-        Me.btnStart.UseVisualStyleBackColor = False
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        components = New System.ComponentModel.Container
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(829, 476)
-        Me.Controls.Add(Me.btnStart)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
-        Me.ResumeLayout(False)
-
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Text = "Form2"
     End Sub
-
-    Friend WithEvents btnStart As Button
 End Class
