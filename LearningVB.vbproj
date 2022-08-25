@@ -73,17 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.vb">
+    <Compile Include="Form.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HelloWorld.Designer.vb">
-      <DependentUpon>HelloWorld.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OutputAndVariables.Designer.vb">
-      <DependentUpon>OutputAndVariables.vb</DependentUpon>
-    </Compile>
-    <Compile Include="OutputAndVariables.vb">
+    <Compile Include="Form.Designer.vb">
+      <DependentUpon>Form.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="HelloWorld.resx">
-      <DependentUpon>HelloWorld.vb</DependentUpon>
+    <EmbeddedResource Include="Form.resx">
+      <DependentUpon>Form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

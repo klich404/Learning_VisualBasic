@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class HelloWorld
+Partial Class Form
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,30 +22,42 @@ Partial Class HelloWorld
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnStart = New System.Windows.Forms.Button()
+        Me.btnHelloWorld = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'btnStart
+        'btnHelloWorld
         '
-        Me.btnStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnStart.Location = New System.Drawing.Point(164, 89)
-        Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(257, 140)
-        Me.btnStart.TabIndex = 0
-        Me.btnStart.Text = "Press Here"
-        Me.btnStart.UseVisualStyleBackColor = False
+        Me.btnHelloWorld.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnHelloWorld.Location = New System.Drawing.Point(48, 42)
+        Me.btnHelloWorld.Name = "btnHelloWorld"
+        Me.btnHelloWorld.Size = New System.Drawing.Size(249, 128)
+        Me.btnHelloWorld.TabIndex = 0
+        Me.btnHelloWorld.Text = "Hello World"
+        Me.btnHelloWorld.UseVisualStyleBackColor = False
         '
-        'Form1
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(303, 42)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(249, 128)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(829, 476)
-        Me.Controls.Add(Me.btnStart)
-        Me.Name = "Form1"
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnHelloWorld)
+        Me.Name = "Form"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents btnStart As Button
+    Friend WithEvents btnHelloWorld As Button
+    Friend WithEvents Button1 As Button
 End Class
